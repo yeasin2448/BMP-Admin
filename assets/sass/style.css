@@ -207,6 +207,72 @@ video {
   }
 }
 
+@-webkit-keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+@-webkit-keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
+  }
+}
+
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
+  }
+}
+
+@-webkit-keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+}
+
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+}
+
 .wrapper {
   width: 100%;
   position: relative;
@@ -1209,6 +1275,11 @@ body.bg-theme.bg-theme12 {
   padding-top: 4px;
 }
 
+.page-wrapper .page-content .card .card-body .customers-list {
+  position: relative;
+  height: 290px;
+}
+
 .page-wrapper .page-content .card.chart-card .card-header {
   border-bottom: 0;
   background: transparent;
@@ -1216,6 +1287,136 @@ body.bg-theme.bg-theme12 {
 
 .page-wrapper .page-content .card.chart-card .card-header button {
   background: transparent;
+}
+
+.page-wrapper .page-content .card.chart-card .card-header h6 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 17px;
+  color: #000000;
+  padding-bottom: 6px;
+  padding-top: 12px;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  background: none;
+  margin: 0 auto;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  position: relative;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 7px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress .progress-left {
+  left: 0;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 7px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+  border-color: #ffb43e;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 75px;
+  border-bottom-right-radius: 75px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress .progress-right {
+  right: 0;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 75px;
+  border-bottom-left-radius: 75px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress .progress-value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 50%;
+  font-size: 36px;
+  text-align: center;
+  line-height: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-weight: 300;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress .progress-value div {
+  margin-top: 10px;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress .progress-value span {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress.blue .progress-bar {
+  border-color: #00ff6a;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress.yellow .progress-bar {
+  border-color: #ffbd07;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .progress.black .progress-bar {
+  border-color: #000;
+}
+
+.page-wrapper .page-content .card.chart-card .card-footer {
+  padding-top: 32px;
+}
+
+.page-wrapper .page-content .card.chart-card .card-footer h6 {
+  font-weight: 500;
+}
+
+.page-wrapper .page-content .card.chart-card-one {
+  min-height: 350px;
 }
 
 .page-footer {
