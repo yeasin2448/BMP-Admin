@@ -436,7 +436,7 @@ video {
 }
 
 .wrapper .sidebar-wrapper .metismenu li:first-child {
-  margin-top: 5px;
+  margin-top: 12px;
 }
 
 .wrapper .sidebar-wrapper .metismenu li a {
@@ -504,11 +504,8 @@ video {
 .wrapper .sidebar-wrapper .metismenu .mm-active > a {
   color: #ffffff;
   text-decoration: none;
+  border-radius: 6px;
   background: rgba(255, 255, 255, 0.15);
-}
-
-.wrapper .sidebar-wrapper .metismenu ul {
-  background: rgba(255, 255, 255, 0.1);
 }
 
 .wrapper .sidebar-wrapper .metismenu ul li {
@@ -1077,7 +1074,7 @@ body.bg-theme.bg-theme12 {
   top: 40%;
   right: 100%;
   cursor: pointer;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(40, 48, 70, 0.72);
   -webkit-box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.13);
           box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.13);
 }
@@ -1277,7 +1274,7 @@ body.bg-theme.bg-theme12 {
 
 .page-wrapper .page-content .card .card-body .customers-list {
   position: relative;
-  height: 290px;
+  height: 292px;
 }
 
 .page-wrapper .page-content .card.chart-card .card-header {
@@ -1407,6 +1404,34 @@ body.bg-theme.bg-theme12 {
   border-color: #000;
 }
 
+.page-wrapper .page-content .card.chart-card .card-body .table-responsive {
+  white-space: nowrap;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .table-responsive table.table tr td,
+.page-wrapper .page-content .card.chart-card .card-body .table-responsive table.table tr th {
+  padding: 1rem 0.5rem;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .table-responsive table.table thead tr th {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .table-responsive table.table tbody tr.last-order {
+  border-bottom: #fff;
+}
+
+.page-wrapper .page-content .card.chart-card .card-body .table-responsive table.table tbody tr td h6.font-14 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+}
+
 .page-wrapper .page-content .card.chart-card .card-footer {
   padding-top: 32px;
 }
@@ -1419,6 +1444,55 @@ body.bg-theme.bg-theme12 {
   min-height: 350px;
 }
 
+.page-wrapper .page-content .card.driver-card {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.page-wrapper .page-content .card.driver-card .card-body {
+  padding: 1.5rem 1rem;
+}
+
+.page-wrapper .page-content .card.driver-card .card-body h4 {
+  padding-bottom: 4px;
+  color: #fff;
+}
+
+.page-wrapper .page-content .card.driver-card .card-body p {
+  color: #fff;
+}
+
+.page-wrapper .page-content .card.driver-card .card-body span.pr-percent {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #69c6ff;
+}
+
+.page-wrapper .page-content .card.driver-card .card-body span.card-icon {
+  width: initial;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: transparent;
+}
+
+.page-wrapper .page-content .card.diver-chart {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.page-wrapper .page-content .card.diver-chart .card-body .bg-gradient-dark-green {
+  border-radius: 6px;
+  background: linear-gradient(89.64deg, #69c6ff 0.16%, #00ff6a 99.58%);
+}
+
+.page-wrapper .page-content .card.diver-chart .card-body h6.chart-titel {
+  font-weight: 400;
+  color: #fff;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-body p.chart-des {
+  color: #9bd9ff;
+}
+
 .page-footer {
   background: rgba(255, 255, 255, 0.12);
   position: absolute;
@@ -1429,7 +1503,6 @@ body.bg-theme.bg-theme12 {
   color: #fff;
   font-size: 14px;
   margin-top: 24px;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
   z-index: 3;
 }
 

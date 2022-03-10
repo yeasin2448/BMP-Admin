@@ -140,7 +140,7 @@
         flex-direction: column;
         position: relative;
         &:first-child {
-          margin-top: 5px;
+          margin-top: 12px;
         }
         a {
           position: relative;
@@ -197,10 +197,11 @@
       .mm-active > a {
         color: #ffffff;
         text-decoration: none;
+        border-radius: 6px;
         background: rgba(255, 255, 255, 0.15);
       }
       ul {
-        background: rgba(255, 255, 255, 0.1);
+        // background: rgba(255, 255, 255, 0.1);
         li {
           margin-top: 5px;
         }

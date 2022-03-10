@@ -68,12 +68,12 @@ $(function () {
   // 			return this.href == e
   // 		}).addClass("").parent().addClass("mm-active"); o.is("li");) o = o.parent("").parent("").addClass("mm-active")
   // }),
-  $(function () {
-    $("#menu").metisMenu();
+  // $(function () {
+  //   $("#menu").metisMenu();
+  // }),
+  $(".chat-toggle-btn").on("click", function () {
+    $(".chat-wrapper").toggleClass("chat-toggled");
   }),
-    $(".chat-toggle-btn").on("click", function () {
-      $(".chat-wrapper").toggleClass("chat-toggled");
-    }),
     $(".chat-toggle-btn-mobile").on("click", function () {
       $(".chat-wrapper").removeClass("chat-toggled");
     }),
