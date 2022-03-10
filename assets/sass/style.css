@@ -531,14 +531,14 @@ video {
 
 .wrapper .page-wrapper {
   height: 100%;
-  margin-top: 76px;
-  margin-bottom: 0px;
-  margin-left: 0;
+  padding-top: 76px;
+  padding-bottom: 0px;
+  padding-left: 0;
 }
 
 @media (min-width: 1200px) {
   .wrapper .page-wrapper {
-    margin-left: 250px;
+    padding-left: 250px;
   }
 }
 
@@ -1087,7 +1087,6 @@ body.bg-theme.bg-theme12 {
   line-height: inherit;
   display: inline-block;
   text-transform: none;
-  speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1494,7 +1493,7 @@ body.bg-theme.bg-theme12 {
 }
 
 .page-footer {
-  background: rgba(255, 255, 255, 0.12);
+  background: #284646;
   position: absolute;
   left: 0;
   right: 0;
@@ -1502,7 +1501,6 @@ body.bg-theme.bg-theme12 {
   padding: 7px;
   color: #fff;
   font-size: 14px;
-  margin-top: 24px;
   z-index: 3;
 }
 

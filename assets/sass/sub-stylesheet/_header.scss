@@ -224,11 +224,11 @@
   }
   .page-wrapper {
     height: 100%;
-    margin-top: 76px;
-    margin-bottom: 0px;
-    margin-left: 0;
+    padding-top: 76px;
+    padding-bottom: 0px;
+    padding-left: 0;
     @include breakpoint(xl) {
-      margin-left: 250px;
+      padding-left: 250px;
     }
     .page-content {
       padding: 1.5rem 1rem 0 1rem;
