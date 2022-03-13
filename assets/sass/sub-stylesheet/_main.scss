@@ -329,8 +329,8 @@ body {
             }
             .progress-left .progress-bar {
               left: 100%;
-              border-top-right-radius: (150px / 2);
-              border-bottom-right-radius: (150px / 2);
+              border-top-right-radius: calc(150px / 2);
+              border-bottom-right-radius: calc(150px / 2);
               border-left: 0;
               -webkit-transform-origin: center left;
               transform-origin: center left;
@@ -471,6 +471,24 @@ body {
           p.chart-des {
             color: rgba(155, 217, 255, 1);
           }
+          .table-responsive {
+            table {
+              color: #ffff;
+              th,
+              td {
+                color: $white-color !important;
+              }
+              tbody {
+                tr {
+                  td {
+                    h6.font-14 {
+                      color: $white-color !important;
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -480,8 +498,8 @@ body {
 
 //*=== footer area css sart ===*//
 .page-footer {
-  // background: rgba(255, 255, 255, 0.12);
-  background: rgba(40, 70, 70, 1);
+  background: rgba(255, 255, 255, 0.12);
+  // background: rgba(40, 70, 70, 1);
   position: absolute;
   left: 0;
   right: 0;
@@ -489,7 +507,7 @@ body {
   padding: 7px;
   color: #fff;
   font-size: 14px;
-  // margin-top: 24px;
+  margin-top: 24px;
   z-index: 3;
   @include breakpoint(xl) {
     left: 250px;
