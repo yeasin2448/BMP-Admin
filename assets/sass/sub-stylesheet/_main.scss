@@ -7,27 +7,27 @@ body {
     background-repeat: no-repeat;
     transition: background 0.2s;
     &.bg-theme1 {
-      background-image: url(../../assets/images/colors/1.png);
+      background-image: url(../../assets/images/colors/1.webp);
     }
 
     &.bg-theme2 {
-      background-image: url(../../assets/images/colors/2.png);
+      background-image: url(../../assets/images/colors/2.webp);
     }
 
     &.bg-theme3 {
-      background-image: url(../../assets/images/colors/3.png);
+      background-image: url(../../assets/images/colors/3.webp);
     }
 
     &.bg-theme4 {
-      background-image: url(../../assets/images/colors/4.png);
+      background-image: url(../../assets/images/colors/4.webp);
     }
 
     &.bg-theme5 {
-      background-image: url(../../assets/images/colors/5.png);
+      background-image: url(../../assets/images/colors/5.webp);
     }
 
     &.bg-theme6 {
-      background-image: url(../../assets/images/colors/6.png);
+      background-image: url(../../assets/images/colors/6.webp);
     }
 
     &.bg-theme7 {
@@ -139,42 +139,42 @@ body {
         border-radius: 10px;
         border: 0px solid black;
         &#theme1 {
-          background-image: url(../../assets/images/colors/1.png);
+          background-image: url(../../assets/images/colors/1.webp);
           background-size: 100% 100%;
           background-position: center;
           transition: background 0.3s;
         }
 
         &#theme2 {
-          background-image: url(../../assets/images/colors/2.png);
+          background-image: url(../../assets/images/colors/2.webp);
           background-size: 100% 100%;
           background-position: center;
           transition: background 0.3s;
         }
 
         &#theme3 {
-          background-image: url(../../assets/images/colors/3.png);
+          background-image: url(../../assets/images/colors/3.webp);
           background-size: 100% 100%;
           background-position: center;
           transition: background 0.3s;
         }
 
         &#theme4 {
-          background-image: url(../../assets/images/colors/4.png);
+          background-image: url(../../assets/images/colors/4.webp);
           background-size: 100% 100%;
           background-position: center;
           transition: background 0.3s;
         }
 
         &#theme5 {
-          background-image: url(../../assets/images/colors/5.png);
+          background-image: url(../../assets/images/colors/5.webp);
           background-size: 100% 100%;
           background-position: center;
           transition: background 0.3s;
         }
 
         &#theme6 {
-          background-image: url(../../assets/images/colors/6.png);
+          background-image: url(../../assets/images/colors/6.webp);
           background-size: 100% 100%;
           background-position: center;
           transition: background 0.3s;
@@ -430,6 +430,47 @@ body {
       }
       &.chart-card-one {
         min-height: 350px;
+        &.chart-card-two {
+          min-height: 366px;
+          .card-body {
+            .driver-reg {
+              .reg-thumb {
+                margin: 0 auto;
+                text-align: center;
+                position: relative;
+                max-width: 250px;
+                &:hover {
+                  img {
+                    filter: grayscale(100%);
+                  }
+                }
+                img {
+                  margin: 0 auto;
+                  transition: all 0.3s ease-in-out;
+                }
+                .reg-count {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  text-align: center;
+                  transform: translate(-50%, -50%);
+                  h3 {
+                    margin: 0;
+                    font-weight: 500;
+                    font-size: 29px;
+                    color: #FFFFFF;
+                  }
+                  p {
+                    margin: 0;
+                    font-weight: 400;
+                    font-size: 24px;
+                    color: #FFFFFF;
+                  }
+                }
+              }
+            }
+          }
+        }
       }
       &.driver-card {
         background: rgba(255, 255, 255, 0.3);

@@ -994,27 +994,27 @@ body.bg-theme {
 }
 
 body.bg-theme.bg-theme1 {
-  background-image: url(../../assets/images/colors/1.png);
+  background-image: url(../../assets/images/colors/1.webp);
 }
 
 body.bg-theme.bg-theme2 {
-  background-image: url(../../assets/images/colors/2.png);
+  background-image: url(../../assets/images/colors/2.webp);
 }
 
 body.bg-theme.bg-theme3 {
-  background-image: url(../../assets/images/colors/3.png);
+  background-image: url(../../assets/images/colors/3.webp);
 }
 
 body.bg-theme.bg-theme4 {
-  background-image: url(../../assets/images/colors/4.png);
+  background-image: url(../../assets/images/colors/4.webp);
 }
 
 body.bg-theme.bg-theme5 {
-  background-image: url(../../assets/images/colors/5.png);
+  background-image: url(../../assets/images/colors/5.webp);
 }
 
 body.bg-theme.bg-theme6 {
-  background-image: url(../../assets/images/colors/6.png);
+  background-image: url(../../assets/images/colors/6.webp);
 }
 
 body.bg-theme.bg-theme7 {
@@ -1138,7 +1138,7 @@ body.bg-theme.bg-theme12 {
 }
 
 .switcher-wrapper .switcher-body .switcher li#theme1 {
-  background-image: url(../../assets/images/colors/1.png);
+  background-image: url(../../assets/images/colors/1.webp);
   background-size: 100% 100%;
   background-position: center;
   -webkit-transition: background 0.3s;
@@ -1146,7 +1146,7 @@ body.bg-theme.bg-theme12 {
 }
 
 .switcher-wrapper .switcher-body .switcher li#theme2 {
-  background-image: url(../../assets/images/colors/2.png);
+  background-image: url(../../assets/images/colors/2.webp);
   background-size: 100% 100%;
   background-position: center;
   -webkit-transition: background 0.3s;
@@ -1154,7 +1154,7 @@ body.bg-theme.bg-theme12 {
 }
 
 .switcher-wrapper .switcher-body .switcher li#theme3 {
-  background-image: url(../../assets/images/colors/3.png);
+  background-image: url(../../assets/images/colors/3.webp);
   background-size: 100% 100%;
   background-position: center;
   -webkit-transition: background 0.3s;
@@ -1162,7 +1162,7 @@ body.bg-theme.bg-theme12 {
 }
 
 .switcher-wrapper .switcher-body .switcher li#theme4 {
-  background-image: url(../../assets/images/colors/4.png);
+  background-image: url(../../assets/images/colors/4.webp);
   background-size: 100% 100%;
   background-position: center;
   -webkit-transition: background 0.3s;
@@ -1170,7 +1170,7 @@ body.bg-theme.bg-theme12 {
 }
 
 .switcher-wrapper .switcher-body .switcher li#theme5 {
-  background-image: url(../../assets/images/colors/5.png);
+  background-image: url(../../assets/images/colors/5.webp);
   background-size: 100% 100%;
   background-position: center;
   -webkit-transition: background 0.3s;
@@ -1178,7 +1178,7 @@ body.bg-theme.bg-theme12 {
 }
 
 .switcher-wrapper .switcher-body .switcher li#theme6 {
-  background-image: url(../../assets/images/colors/6.png);
+  background-image: url(../../assets/images/colors/6.webp);
   background-size: 100% 100%;
   background-position: center;
   -webkit-transition: background 0.3s;
@@ -1443,6 +1443,51 @@ body.bg-theme.bg-theme12 {
 
 .page-wrapper .page-content .card.chart-card-one {
   min-height: 350px;
+}
+
+.page-wrapper .page-content .card.chart-card-one.chart-card-two {
+  min-height: 366px;
+}
+
+.page-wrapper .page-content .card.chart-card-one.chart-card-two .card-body .driver-reg .reg-thumb {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  max-width: 250px;
+}
+
+.page-wrapper .page-content .card.chart-card-one.chart-card-two .card-body .driver-reg .reg-thumb:hover img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.page-wrapper .page-content .card.chart-card-one.chart-card-two .card-body .driver-reg .reg-thumb img {
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.page-wrapper .page-content .card.chart-card-one.chart-card-two .card-body .driver-reg .reg-thumb .reg-count {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.page-wrapper .page-content .card.chart-card-one.chart-card-two .card-body .driver-reg .reg-thumb .reg-count h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 29px;
+  color: #FFFFFF;
+}
+
+.page-wrapper .page-content .card.chart-card-one.chart-card-two .card-body .driver-reg .reg-thumb .reg-count p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
 }
 
 .page-wrapper .page-content .card.driver-card {
