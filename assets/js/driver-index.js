@@ -62,41 +62,6 @@ new Chart(ctx, {
   },
 });
 
-// doughnut chart 1
-var ctx = document.getElementById("chart-doughnut").getContext("2d");
-
-var myDoughnutChart = new Chart(ctx, {
-  type: "doughnut",
-  data: (data = {
-    datasets: [
-      {
-        data: [10, 20, 30, 15],
-        backgroundColor: [
-          "rgba(223, 89, 83, 1)",
-          "rgba(255, 189, 7, 1)",
-          "rgba(3, 151, 242, 1)",
-          "rgba(118, 203, 255, 1)",
-        ],
-      },
-    ],
-
-    // These labels appear in the legend and in the tooltips when hovering different arcs
-    labels: ["Fashion", "Baby & Child", "Grocery", "Home Decor"],
-  }),
-  options: {
-    responsive: true,
-    maintainAspectRatio: false,
-    legend: {
-      display: true,
-      position: "bottom",
-      align: "center",
-      labels: {
-        padding: 20,
-      },
-    },
-  },
-});
-
 // min to max line chart
 var ctx = document.getElementById("engagedChart").getContext("2d");
 var myChart = new Chart(ctx, {
