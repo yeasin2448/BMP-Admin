@@ -1480,14 +1480,14 @@ body.bg-theme.bg-theme12 {
   margin: 0;
   font-weight: 500;
   font-size: 29px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .page-wrapper .page-content .card.chart-card-one.chart-card-two .card-body .driver-reg .reg-thumb .reg-count p {
   margin: 0;
   font-weight: 400;
   font-size: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .page-wrapper .page-content .card.driver-card {
@@ -1598,7 +1598,7 @@ body.bg-theme.bg-theme12 {
   width: 0;
   height: 10px;
   line-height: 10px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 5px;
   background: -webkit-gradient(linear, left top, right top, from(#c8102e), to(#ffbd07));
   background: linear-gradient(90deg, #c8102e 0%, #ffbd07 100%);
 }
