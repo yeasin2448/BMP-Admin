@@ -560,6 +560,10 @@ video {
   padding: 1.5rem 1rem 0 1rem;
 }
 
+.wrapper .page-wrapper.style-one {
+  height: 100vh;
+}
+
 header .topbar {
   position: fixed;
   top: 0;
@@ -1663,5 +1667,156 @@ body.bg-theme.bg-theme12 {
 .page-footer p {
   margin: 0;
   color: #fff;
+}
+
+.login-content .page-header {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.login-content .page-header .mask {
+  position: absolute;
+  background-position: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.login-content .page-header .mask.bg-gradient-dark {
+  background-image: linear-gradient(195deg, #42424a, #191919);
+}
+
+.login-content .page-header .mask.opacity-6 {
+  opacity: 0.6 !important;
+}
+
+.login-content .page-header .card {
+  border-radius: 10px;
+}
+
+.login-content .page-header .card.fadeInBottom {
+  -webkit-animation-name: h;
+          animation-name: h;
+}
+
+.login-content .page-header .card .card-header {
+  border-bottom: 0;
+  margin-top: -24px;
+}
+
+.login-content .page-header .card .card-header .bg-gradient-primary {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(6%, rgba(0, 0, 0, 0.8)), color-stop(52.08%, rgba(9, 120, 188, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 6%, rgba(9, 120, 188, 0.8) 52.08%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.login-content .page-header .card .card-header .border-radius-lg {
+  border-radius: 0.5rem;
+}
+
+.login-content .page-header .card .card-header .shadow-primary {
+  -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(9, 120, 188, 0.5);
+          box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(9, 120, 188, 0.5);
+}
+
+.login-content .page-header .card .card-body form .input-group {
+  display: block;
+  position: relative;
+}
+
+.login-content .page-header .card .card-body form .input-group input.form-control {
+  width: 100%;
+  border-radius: 6px !important;
+}
+
+.login-content .page-header .card .card-body form .input-group input.form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #012169;
+}
+
+.login-content .page-header .card .card-body form .input-group label.form-label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  margin: 0;
+  z-index: 1;
+  font-size: 13px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.login-content .page-header .card .card-body form .form-switch .form-check-input {
+  position: relative;
+  background-color: #ced4da;
+  height: 0.9375rem;
+  width: 1.875rem;
+  border: 0;
+}
+
+.login-content .page-header .card .card-body form .form-switch .form-check-input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 0;
+}
+
+.login-content .page-header .card .card-body form .form-switch .form-check-input:checked:after {
+  -webkit-transform: translateX(21px);
+          transform: translateX(21px);
+  border-color: #42424a;
+}
+
+.login-content .page-header .card .card-body form .form-switch .form-check-input:after {
+  -webkit-transition: background-color 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, background-color 0.25s ease-in-out;
+  transition: transform 0.25s ease-in-out, background-color 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+  content: "";
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  border: 1px solid #ced4da;
+  position: absolute;
+  background-color: #fff;
+  -webkit-transform: translateX(1px);
+          transform: translateX(1px);
+  -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
+  top: -3.5px;
+  left: -5px;
+}
+
+.login-content .page-header .card .card-body form .btn-primary:hover,
+.login-content .page-header .card .card-body form .btn.bg-gradient-primary:hover {
+  background-color: #0978bccc;
+  border-color: #0978bccc;
+  -webkit-box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.4), 0 4px 23px 0 rgba(233, 30, 99, 0.15), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
+          box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.4), 0 4px 23px 0 rgba(233, 30, 99, 0.15), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
+}
+
+.login-content .page-header .card .card-body form button.bg-gradient-primary {
+  color: #fff;
+  background: #0978bccc;
+}
+
+.login-content .page-header .card .card-body form button.bg-gradient-primary:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.login-content .page-header .card .card-body form a.text-gradient {
+  color: #0978bccc;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
