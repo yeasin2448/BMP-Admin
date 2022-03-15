@@ -527,6 +527,11 @@ body {
                     h6.font-14 {
                       color: $white-color !important;
                     }
+                    .dropdown {
+                      a.dropdown-toggle {
+                        color: $white-color;
+                      }
+                    }
                   }
                 }
               }
@@ -562,7 +567,10 @@ body {
                 height: 10px;
                 line-height: 10px;
                 border-radius: 5px;
+                transform: scaleX(0);
+                transform-origin: left;
                 background: linear-gradient(90deg, #c8102e 0%, #ffbd07 100%);
+                animation: animate 0.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
               }
               .bar-percent {
                 position: absolute;

@@ -273,6 +273,20 @@ video {
   }
 }
 
+@-webkit-keyframes animate {
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes animate {
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
 .wrapper {
   width: 100%;
   position: relative;
@@ -1552,6 +1566,10 @@ body.bg-theme.bg-theme12 {
   color: #fff !important;
 }
 
+.page-wrapper .page-content .card.diver-chart .card-body .table-responsive table tbody tr td .dropdown a.dropdown-toggle {
+  color: #fff;
+}
+
 .page-wrapper .page-content .card.diver-chart .card-body .bar-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1599,8 +1617,14 @@ body.bg-theme.bg-theme12 {
   height: 10px;
   line-height: 10px;
   border-radius: 5px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
   background: -webkit-gradient(linear, left top, right top, from(#c8102e), to(#ffbd07));
   background: linear-gradient(90deg, #c8102e 0%, #ffbd07 100%);
+  -webkit-animation: animate 0.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
+          animation: animate 0.5s 0.5s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 
 .page-wrapper .page-content .card.diver-chart .card-body .bar-item .bar .bar-percent {
