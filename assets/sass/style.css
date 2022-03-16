@@ -1543,6 +1543,97 @@ body.bg-theme.bg-theme12 {
   background: rgba(255, 255, 255, 0.3);
 }
 
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px 0 12px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 12px;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice span,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice span {
+  font-size: 14px;
+  color: #fff;
+  margin-right: 12px;
+  display: inline-block;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice input,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice select,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice input,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice select {
+  height: 36px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice input:focus,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice select:focus,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice input:focus,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice select:focus {
+  outline: 0;
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice input::-webkit-input-placeholder,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice select::-webkit-input-placeholder,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice input::-webkit-input-placeholder,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice select::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice input:-ms-input-placeholder,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice select:-ms-input-placeholder,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice input:-ms-input-placeholder,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice select:-ms-input-placeholder {
+  font-size: 14px;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice input::-ms-input-placeholder,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice select::-ms-input-placeholder,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice input::-ms-input-placeholder,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice select::-ms-input-placeholder {
+  font-size: 14px;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice input::placeholder,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .search-invoice select::placeholder,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice input::placeholder,
+.page-wrapper .page-content .card.diver-chart .card-header .table-heading .Filter-table .select-invoice select::placeholder {
+  font-size: 14px;
+}
+
 .page-wrapper .page-content .card.diver-chart .card-body .bg-gradient-dark-green {
   border-radius: 6px;
   background: linear-gradient(89.64deg, #69c6ff 0.16%, #00ff6a 99.58%);
@@ -1572,6 +1663,43 @@ body.bg-theme.bg-theme12 {
 
 .page-wrapper .page-content .card.diver-chart .card-body .table-responsive table tbody tr td .dropdown a.dropdown-toggle {
   color: #fff;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-body .table-pagination ul.pagination {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-body .table-pagination ul.pagination li.page-item {
+  border-radius: 5rem;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-body .table-pagination ul.pagination li.page-item:last-child a.page-link {
+  border-radius: 0 25px 25px 0;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-body .table-pagination ul.pagination li.page-item.active a.page-link {
+  color: #000;
+  background: #fff;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-body .table-pagination ul.pagination li.page-item a.page-link {
+  border: 0;
+  color: #b4b7bd;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #242b3d;
+}
+
+.page-wrapper .page-content .card.diver-chart .card-body .table-pagination ul.pagination li.page-item a.page-link:focus {
+  border: 0;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .page-wrapper .page-content .card.diver-chart .card-body .bar-item {

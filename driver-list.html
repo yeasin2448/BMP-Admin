@@ -1235,7 +1235,29 @@
           <!-- end row -->
           <div class="card radius-10 mt-4 chart-card diver-chart">
             <div class="card-header pb-0">
-              <h6 class="text-white">Driver List</h6>
+              <div class="table-heading">
+                <h6 class="text-white">Driver List</h6>
+                <div class="Filter-table">
+                  <div class="search-invoice">
+                    <span>Search</span>
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Search Invoice"
+                    />
+                  </div>
+                  <div class="select-invoice">
+                    <span>Status</span>
+                    <select name="" id="">
+                      <option value="0" selected>Select Status</option>
+                      <option value="1">New Driver</option>
+                      <option value="2">Active Driver</option>
+                      <option value="3">Suspend Driver</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="card-body">
               <div class="table-responsive">
@@ -1280,7 +1302,12 @@
                             class="dropdown-menu"
                             aria-labelledby="navbarDropdown"
                           >
-                            <a class="dropdown-item" href="#">New</a>
+                            <a
+                              class="dropdown-item"
+                              data-bs-toggle="modal"
+                              href="#exampleModalToggle"
+                              >New</a
+                            >
                             <a class="dropdown-item" href="#">Active</a>
                             <a class="dropdown-item" href="#">Suspend</a>
                           </div>
@@ -1813,6 +1840,106 @@
                   </tbody>
                 </table>
               </div>
+              <div class="table-pagination">
+                <ul class="pagination">
+                  <li
+                    class="paginate_button page-item previous disabled"
+                    id="DataTables_Table_0_previous"
+                  >
+                    <a
+                      href="#"
+                      aria-controls="DataTables_Table_0"
+                      data-dt-idx="0"
+                      tabindex="0"
+                      class="page-link"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="#fff"
+                      >
+                        <path
+                          d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="paginate_button page-item active">
+                    <a
+                      href="#"
+                      aria-controls="DataTables_Table_0"
+                      data-dt-idx="1"
+                      tabindex="0"
+                      class="page-link"
+                      >1</a
+                    >
+                  </li>
+                  <li class="paginate_button page-item">
+                    <a
+                      href="#"
+                      aria-controls="DataTables_Table_0"
+                      data-dt-idx="2"
+                      tabindex="0"
+                      class="page-link"
+                      >2</a
+                    >
+                  </li>
+                  <li class="paginate_button page-item">
+                    <a
+                      href="#"
+                      aria-controls="DataTables_Table_0"
+                      data-dt-idx="3"
+                      tabindex="0"
+                      class="page-link"
+                      >3</a
+                    >
+                  </li>
+                  <li class="paginate_button page-item">
+                    <a
+                      href="#"
+                      aria-controls="DataTables_Table_0"
+                      data-dt-idx="4"
+                      tabindex="0"
+                      class="page-link"
+                      >4</a
+                    >
+                  </li>
+                  <li class="paginate_button page-item">
+                    <a
+                      href="#"
+                      aria-controls="DataTables_Table_0"
+                      data-dt-idx="5"
+                      tabindex="0"
+                      class="page-link"
+                      >5</a
+                    >
+                  </li>
+                  <li
+                    class="paginate_button page-item next"
+                    id="DataTables_Table_0_next"
+                  >
+                    <a
+                      href="#"
+                      aria-controls="DataTables_Table_0"
+                      data-dt-idx="6"
+                      tabindex="0"
+                      class="page-link"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        fill="#fff"
+                      >
+                        <path
+                          d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -1895,6 +2022,42 @@
       </div>
     </div>
     <!--end switcher-->
+
+    <!-- driver status modal -->
+    <div
+      class="modal fade"
+      id="exampleModalToggle"
+      aria-hidden="true"
+      aria-labelledby="exampleModalToggleLabel"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Show a second modal and hide this one with the button below.
+          </div>
+          <div class="modal-footer">
+            <button
+              class="btn btn-primary"
+              data-bs-target="#exampleModalToggle2"
+              data-bs-toggle="modal"
+              data-bs-dismiss="modal"
+            >
+              Open second modal
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="assets/js/popper.min.js"></script>
