@@ -1947,4 +1947,22 @@ body.bg-theme.bg-theme12 {
   color: #0978bccc;
   text-decoration: none;
 }
+
+.loading-content {
+  height: 100vh;
+  background: #fff;
+}
+
+.loading-content .content-thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=style.css.map */
