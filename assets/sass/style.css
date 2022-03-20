@@ -1881,6 +1881,109 @@ body.bg-theme.bg-theme12 {
   padding: 12px;
 }
 
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-img,
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-input {
+  padding-bottom: 16px;
+}
+
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-img h5,
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-input h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-img .input-group .wrapper,
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-input .input-group .wrapper {
+  padding: 16px;
+  -webkit-box-shadow: 0px 1px 7px rgba(46, 49, 146, 0.13);
+          box-shadow: 0px 1px 7px rgba(46, 49, 146, 0.13);
+  border-radius: 6px;
+}
+
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-img .input-group .wrapper:active #img-result,
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-input .input-group .wrapper:active #img-result {
+  margin-top: 2px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-img .input-group .wrapper #img-result,
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-input .input-group .wrapper #img-result {
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0);
+  -webkit-transition: margin 0.3s, background-image 1.5s, -webkit-box-shadow 0.3s;
+  transition: margin 0.3s, background-image 1.5s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, margin 0.3s, background-image 1.5s;
+  transition: box-shadow 0.3s, margin 0.3s, background-image 1.5s, -webkit-box-shadow 0.3s;
+}
+
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-img .input-group .wrapper #img-result.no-image:before,
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-input .input-group .wrapper #img-result.no-image:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #fff;
+  font-size: 48px;
+  opacity: 0.8;
+  font-weight: 900;
+  background-image: url(../../assets/images/login/camera.png);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-shadow: 0 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-img .input-group .wrapper button,
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-input .input-group .wrapper button {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  letter-spacing: 1.3px;
+  font-size: 1.05em;
+  border-radius: 5px;
+  outline: 0;
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: margin-top 0.3s, padding 0.3s, -webkit-box-shadow 0.3s;
+  transition: margin-top 0.3s, padding 0.3s, -webkit-box-shadow 0.3s;
+  transition: box-shadow 0.3s, margin-top 0.3s, padding 0.3s;
+  transition: box-shadow 0.3s, margin-top 0.3s, padding 0.3s, -webkit-box-shadow 0.3s;
+}
+
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-img .input-group .wrapper button:active,
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-input .input-group .wrapper button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-top: 24px;
+  padding: 8px;
+}
+
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-img .input-group textarea,
+.page-wrapper .page-content .card.diver-chart.create-driver .card-body form.create-form .review-input .input-group textarea {
+  padding: 12px;
+  background: #ffffff;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 7px rgba(46, 49, 146, 0.13);
+          box-shadow: 0px 1px 7px rgba(46, 49, 146, 0.13);
+}
+
 .page-wrapper .page-content .card.diver-chart.create-driver .card-body .diver-submit {
   text-align: right;
 }

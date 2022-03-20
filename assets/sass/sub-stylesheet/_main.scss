@@ -656,6 +656,8 @@ body {
               }
             }
           }
+          .driver-details {
+          }
         }
         &.create-driver {
           .card-header {
@@ -728,6 +730,85 @@ body {
                   font-size: 14px;
                   border-radius: 4px;
                   padding: 12px;
+                }
+              }
+              .review-img,
+              .review-input {
+                padding-bottom: 16px;
+                h5 {
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 14px;
+                  line-height: 17px;
+                  color: #fff;
+                  font-family: "Rubik", sans-serif;
+                }
+                .input-group {
+                  .wrapper {
+                    &:active {
+                      #img-result {
+                        margin-top: 2px;
+                        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+                      }
+                    }
+                    padding: 16px;
+                    box-shadow: 0px 1px 7px rgba(46, 49, 146, 0.13);
+                    border-radius: 6px;
+
+                    #img-result {
+                      cursor: pointer;
+                      margin: 0;
+                      position: relative;
+                      background-size: cover;
+                      background-position: center;
+                      display: block;
+                      width: 80px;
+                      height: 80px;
+                      border-radius: 50%;
+                      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+                      color: rgba(0, 0, 0, 0);
+                      transition: box-shadow 0.3s, margin 0.3s,
+                        background-image 1.5s;
+                      &.no-image:before {
+                        content: "";
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        color: #fff;
+                        font-size: 48px;
+                        opacity: 0.8;
+                        font-weight: 900;
+                        background-image: url(../../assets/images/login/camera.png);
+                        transform: translate(-50%, -50%);
+                        text-shadow: 0 0px 5px rgba(0, 0, 0, 0.4);
+                      }
+                    }
+                    button {
+                      margin-top: 20px;
+                      display: block;
+                      width: 100%;
+                      border: none;
+                      color: #fff;
+                      padding: 10px;
+                      letter-spacing: 1.3px;
+                      font-size: 1.05em;
+                      border-radius: 5px;
+                      outline: 0;
+                      box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+                      transition: box-shadow 0.3s, margin-top 0.3s, padding 0.3s;
+                      &:active {
+                        box-shadow: none;
+                        margin-top: 24px;
+                        padding: 8px;
+                      }
+                    }
+                  }
+                  textarea {
+                    padding: 12px;
+                    background: #ffffff;
+                    border-radius: 6px;
+                    box-shadow: 0px 1px 7px rgba(46, 49, 146, 0.13);
+                  }
                 }
               }
             }

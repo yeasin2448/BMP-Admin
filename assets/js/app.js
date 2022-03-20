@@ -1,8 +1,8 @@
 $(function () {
   "use strict";
-  new PerfectScrollbar(".header-message-list"),
-    new PerfectScrollbar(".header-notifications-list"),
-    new PerfectScrollbar(".customers-list");
+  // new PerfectScrollbar(".header-message-list"),
+  //   new PerfectScrollbar(".header-notifications-list"),
+  //   new PerfectScrollbar(".customers-list");
   $(".mobile-search-icon").on("click", function () {
     $(".search-bar").addClass("full-search-bar");
   }),
