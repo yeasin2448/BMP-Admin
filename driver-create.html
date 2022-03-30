@@ -1230,7 +1230,7 @@
       <!--end header -->
 
       <!--start page wrapper -->
-      <div class="page-wrapper style-one">
+      <div class="page-wrapper">
         <div class="page-content">
           <div class="row">
             <div class="col-md-8 col-12">
@@ -1548,9 +1548,21 @@
                 },
               ],
             };
+
+            // document.querySelector(".show-button").style.display = "block";
+            // document.querySelector(".upload-result__content").innerHTML =
+            //   JSON.stringify(request, null, "  ");
           };
           reader.readAsDataURL(uploader.files[0]);
         };
+
+        // document.querySelector(".hide-button").onclick = function () {
+        //   document.querySelector(".upload-result").style.display = "none";
+        // };
+
+        // document.querySelector(".show-button").onclick = function () {
+        //   document.querySelector(".upload-result").style.display = "block";
+        // };
       })();
     </script>
   </body>
